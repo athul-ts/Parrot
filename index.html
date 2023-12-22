@@ -7,6 +7,7 @@
 
     <!-- ----------------------bootstrap-------------------------- -->
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./bootstrap and jquery/bootstrap-5.3.2-dist/css/bootstrap.min.css">
 
     <!-- -----------------------------style----------------------------- -->
@@ -67,7 +68,9 @@
                     <a href="#report" class="btn btn-secondary btn-lg">Buy now</a>
                 </div>
                 <div class="col-md-5 text-center">
-                    <img class="img-fluid" src="./img/p1.jpeg" alt="">
+                    <span class="tt" data-bs-placement="bottom" title="indian green parrot">
+                      <img class="img-fluid" src="./img/p1.jpeg" alt="">
+                    </span>
                 </div>
             </div>
         </div>
@@ -192,14 +195,70 @@
           </div>
         </div>
         </div>
+        </div>
+      </section>
 
 
+
+      <!-- ------------------------connect------------------------ -->
+
+      <section class="connect">
+
+        <div class="container-lg">
+          <div class="text-center">
+            <h1>Contact us</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Repellendus dignissimos ea pariatur quae! Numquam facere in dignissimos.</p>
+          </div>
+
+          <div class="row justify-content-center my-5">
+            <div class="col-lg-6">
+              <form action="">
+                <label for="email" class="form-label">Email:</label>
+                <div class="mb-3 input-group">
+                  <span class="input-group-text">
+                    <i class="bi bi-envelope-at-fill"></i>
+                  </span>
+                  <input type="email" class="form-control" id="email" placeholder="eg:- example@example.com">
+                </div>
+                
+
+                <label for="name" class="form-label">Name:</label>
+                <div class="mb-3 input-group">
+                  <span class="input-group-text">
+                    <i class="bi bi-person-fill"></i>
+                  </span>
+                <input type="text" class="form-control" id="name" placeholder="eg:- Sugunan">
+              </div>
+
+                <label for="subject" class="form-label">what is the question about:</label>
+                <div class="mb-3 input-group">
+                  <span class="input-group-text">
+                    <i class="bi bi-chat-left-dots-fill"></i>
+                  </span>
+                  <select name="" id="subject" class="form-select">
+                    <option value="price">Pricing query</option>
+                    <option value="content">Content query</option>
+                    <option value="others">Other query</option>
+                  </select>
+                </div>
+
+                <div class="form-floating mt-3 md-4">
+                  <label for="query" class="form-lable">Your queries</label>
+                  <textarea name="" id="query" class="form-control" style="height: 140px;"></textarea>
+                </div>
+
+                <div class="my-3 text-center ">
+                  <button class="btn btn-secondary">Submit</button>
+                </div>
+
+              </form>
+            </div>
+          </div>
 
 
 
         </div>
-
-
 
 
 
